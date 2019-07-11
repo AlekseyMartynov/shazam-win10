@@ -1,0 +1,91 @@
+﻿html, body {
+    height: 100%;
+    background: #0088ff;
+    font-family: 'Segoe UI Light';
+    font-size: 20px;
+    color: white;
+}
+
+a {
+    text-decoration: underline;
+    color: white;
+}
+
+.container {
+    position: relative;
+    width: 157px;
+    height: 157px;
+    margin: -120px auto 0;
+    top: 50%;
+}
+
+.pie {
+    position: absolute;
+    opacity: 0;
+    width: 200%;
+    height: 200%;
+    margin-top: -50%;
+    margin-left: -50%;
+    background: url(images/pie.png) no-repeat center center;
+    background-size: 100% auto;
+    animation: rotate 3.5s linear infinite;
+}
+
+.logo, .spin1, .spin2, .shazam {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.spin1, .spin2 {
+    opacity: 0.7;
+}
+
+.spin1, .spin2, .shazam {
+    background: url(images/logo.png) no-repeat center 18px;
+    background-size: 168px auto;
+}
+
+.container:not(.listening) .shazam:active {
+    background-size: 164px auto;
+    background-position: center 19px;
+    height: 150px;
+}
+
+.spin1 {
+    background-position: center -133px;
+    animation: spin1 3s cubic-bezier(.35, 0, .65, 1) infinite alternate;
+}
+
+.spin2 {
+    background-position: center -309px;
+    animation: rotate 5s linear infinite;
+}
+
+.listening .spin2 {
+    background-size: 185px auto;
+    background-position: center -348px
+}
+
+.info {
+    position: absolute;
+    top: 75%;
+    width: 100%;
+    text-align: center;
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spin1 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(160deg);
+    }
+}
