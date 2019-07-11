@@ -1,0 +1,1 @@
+Extracted from C:\Program Files (x86)\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\Appx\Retail\x86\Microsoft.VCLibs.x86.14.00.appx

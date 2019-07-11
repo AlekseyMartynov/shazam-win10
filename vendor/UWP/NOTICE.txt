@@ -1,0 +1,1 @@
+Copied from C:\Program Files (x86)\Windows Kits\10\References\Windows.Foundation.FoundationContract\1.0.0.0

@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{262852C6-CD72-467D-83FE-5EEB1973A190}") = "Shazam.WWA", "Shazam.WWA\Shazam.WWA.jsproj", "{B71D04D6-A48A-4990-B3D3-BC52DE57C5B2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shazam.Console", "Shazam.Console\Shazam.Console.csproj", "{461E94DC-207C-4B4E-966A-E2F73646A19C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -15,6 +17,10 @@ Global
 		{B71D04D6-A48A-4990-B3D3-BC52DE57C5B2}.Release|x86.ActiveCfg = Release|x86
 		{B71D04D6-A48A-4990-B3D3-BC52DE57C5B2}.Release|x86.Build.0 = Release|x86
 		{B71D04D6-A48A-4990-B3D3-BC52DE57C5B2}.Release|x86.Deploy.0 = Release|x86
+		{461E94DC-207C-4B4E-966A-E2F73646A19C}.Debug|x86.ActiveCfg = Debug|x86
+		{461E94DC-207C-4B4E-966A-E2F73646A19C}.Debug|x86.Build.0 = Debug|x86
+		{461E94DC-207C-4B4E-966A-E2F73646A19C}.Release|x86.ActiveCfg = Release|x86
+		{461E94DC-207C-4B4E-966A-E2F73646A19C}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
